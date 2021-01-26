@@ -3,5 +3,8 @@ The Fetcher scripts are script created for data retrival.
 
 List of scripts:
 add_taxid.py:         Format change NCBI headers for Kraken 2
+BUSCO_fetcher.py:     Takes the BUSCO score from multiple BUSCO output files and puts in a tab-formatted table.
+Flagstat_Fetcher.py:  Takes the stats from multiple flagstat files and puts them in a tab-formatted table. 
 Isoform_chooser.py    Picks an isoform in each cluster based on longest cooding sequence. The quality aswell as the completeness is also in the code to be selected for. 
+Kraken_Fetcher.py:    Latest version. Only demands Kraken file as input. Prepares a file of wanted genes from approved  taxies. Soft filter approach for Embryophyta. 
 taxi_sorter.py:       Sort eggNOG-mapper v2 output; as to get gene list from only desired taxi
