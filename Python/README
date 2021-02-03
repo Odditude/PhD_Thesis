@@ -14,4 +14,4 @@ ncbi_fetch_data.py:       Download sequences from NCBI. Script made by Marni Tau
 taxi_sorter.py:           Sort eggNOG-mapper v2 output; as to get gene list from only desired taxi
 Transcript_1Finder.py     Part one of three connecting scripts. An early version of Isoform_chooser.py
 Transcript_2Decider.py    Part two of three connecting scripts. An early version of Isoform_chooser.py
-Transcript_3aaHookUp.py    Part three of three connecting scripts. An early version of Isoform_chooser.py
+Transcript_3aaHookUp.py   Part three of three connecting scripts. An early version of Isoform_chooser.py
