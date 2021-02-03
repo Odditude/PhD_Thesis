@@ -2,11 +2,16 @@ Here are all the Python scripts used during the project.
 The Fetcher scripts are script created for data retrival.
 
 List of scripts:
-Add_annotations.py:     Adds eggNOG v5 annotations to gene list. 
-add_taxid.py:           Format change NCBI headers for Kraken 2
-BUSCO_fetcher.py:       Takes the BUSCO score from multiple BUSCO output files and puts in a tab-formatted table.
-cluster_membership.py:  Gives a list with for each genes annotation: gene, cluster, accession and tissue. Also gives list of cluster with only one gene. 
-Flagstat_Fetcher.py:    Takes the stats from multiple flagstat files and puts them in a tab-formatted table. 
-Isoform_chooser.py      Picks an isoform in each cluster based on longest cooding sequence. The quality aswell as the completeness is also in the code to be selected for. 
-Kraken_Fetcher.py:      Latest version. Only demands Kraken file as input. Prepares a file of wanted genes from approved  taxies. Soft filter approach for Embryophyta. 
-taxi_sorter.py:         Sort eggNOG-mapper v2 output; as to get gene list from only desired taxi
+Add_annotations.py:       Adds eggNOG v5 annotations to gene list. 
+add_taxid.py:             Format change NCBI headers for Kraken 2
+BUSCO_fetcher.py:         Takes the BUSCO score from multiple BUSCO output files and puts in a tab-formatted table.
+cluster_membership.py:    Gives a list with for each genes annotation: gene, cluster, accession and tissue. Also gives list of cluster with only one gene. 
+Fetch_Kraken_Ids.py:      Old edition of Kraken_fetcher. Demands two files instead of just one (the Kraken 2 file). 
+Flagstat_Fetcher.py:      Takes the stats from multiple flagstat files and puts them in a tab-formatted table. 
+Isoform_chooser.py        Picks an isoform in each cluster based on longest cooding sequence. The quality aswell as the completeness is also in the code to be selected for. 
+Kraken_Fetcher.py:        Latest version. Only demands Kraken file as input. Prepares a file of wanted genes from approved  taxies. Soft filter approach for Embryophyta. 
+ncbi_fetch_data.py:       Download sequences from NCBI. Script made by Marni Tausen. 
+taxi_sorter.py:           Sort eggNOG-mapper v2 output; as to get gene list from only desired taxi
+Transcript_1Finder.py     Part one of three connecting scripts. An early version of Isoform_chooser.py
+Transcript_2Decider.py    Part two of three connecting scripts. An early version of Isoform_chooser.py
+Transcript_3aaHookUp.py    Part three of three connecting scripts. An early version of Isoform_chooser.py
